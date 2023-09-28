@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    height: 5000px;
 }
 
 /* container for landing screen */
@@ -29,13 +30,6 @@ body {
     opacity: .3;
 }
 
-/* text placed in the center of the hero-container */
-.hero-title {
-    filter: brightness(1);
-    color: var(--bs-body);
-    text-align: center;
-}
-
 /* Keep the navbar at the very top of the page */
 .navbar {
     position: absolute;
@@ -44,3 +38,11 @@ body {
     width: 100vw;
     z-index: 100;
 }
+
+/* text placed in the center of the hero-container */
+.hero-title {
+    color: var(--bs-body);
+    text-align: center;
+}
+
+

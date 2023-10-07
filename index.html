@@ -29,14 +29,15 @@
           var itemHeight = this.scrollHeight
           var previousSibling = item.previousElementSibling;
           var scrollOffset = 0;
-          
+
           //how big is the header of the previous item?
           if (previousSibling.querySelector(".accordion-header")) { scrollOffset = previousSibling.querySelector(".accordion-header").scrollHeight; }
+
           window.scrollTo({
-              top: this.offsetTop - scrollOffset,
-              behavior: 'smooth'
-            });
-          
+            top: this.offsetTop - scrollOffset,
+            behavior: 'smooth'
+          });
+
         })
       })
     })
